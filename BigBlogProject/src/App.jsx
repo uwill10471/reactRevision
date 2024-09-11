@@ -36,7 +36,7 @@ return !loading ? (
     <Footer/>
     </div>
   </div>
-) : null
+) : "Loading..."
 
 }
 
