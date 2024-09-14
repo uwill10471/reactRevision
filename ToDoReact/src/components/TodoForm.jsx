@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import {useToDo} from '../context/todocontext'
 export default function  TodoForm(){
     const [todo,setTodo] = useState("");
-    const {addTodo }= useToDo()
+    const {addTodo}= useToDo()
 
     const add = (e) => {
         e.preventDefault()

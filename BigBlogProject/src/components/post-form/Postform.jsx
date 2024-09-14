@@ -69,7 +69,7 @@ export default function PostForm({post}){
    React.useEffect(()=>{
         const subscription = watch((value , {name})=>{
             if(name === 'title'){
-                setValue('slug', slugTranform(value.title,{
+                setValue('slug', slugTranform(value.title,{//setValue in slug
                     shouldValidate:true
                 }))
             }
